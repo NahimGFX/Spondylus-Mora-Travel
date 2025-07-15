@@ -1,25 +1,38 @@
 ---
-
-interface Props{
-    tittle: String;
+// Layout.astro
+interface Props {
+  title: string;
 }
+import '@fontsource-variable/league-spartan';
+import NavBar from './NavBar.astro';
 
-import '../styles/layout.css'
-
-const {tittle} = Astro.props
+const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{tittle}</title>
-</head>
-<body>
-    <main class="mx-auto container">
-        <slot/>
-    </main>
-
-</body>
+<html lang="es-EC">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <NavBar />
+    <slot />
+  </body>
 </html>
+
+<style is:global>
+  :root {
+    color-scheme: light dark;
+  }
+
+  html {
+    font-family: 'League Spartan Variable', system-ui, sans-serif;
+  }
+
+  body {
+    background: #fbfeff;
+    color: #202020;
+  }
+</style>
