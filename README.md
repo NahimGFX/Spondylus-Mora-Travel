@@ -1,3 +1,6 @@
+# NahimGFX
+Esta es mi primera pagina web que estoy haciendo cualquier ayuda o recomendacion la escuchare
+This is my first website that I'm making, any help or recommendation I will listen to.
 # Astro Starter Kit: Minimal
 
 ```sh
