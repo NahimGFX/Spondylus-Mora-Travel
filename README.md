@@ -1,50 +1,65 @@
-# NahimGFX
-Esta es mi primera pagina web que estoy haciendo cualquier ayuda o recomendacion la escuchare  
-This is my first website that I'm making, any help or recommendation I will listen to.
-# Astro Starter Kit: Minimal
+# 🌊 Spondylus Mora Travel — Sitio Web de Prueba
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Este es un proyecto experimental para el diseño y desarrollo del sitio web de **Spondylus Mora Travel**, una agencia de turismo dedicada a brindar experiencias únicas en la costa ecuatoriana.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+> 🧪 Proyecto de prueba hecho por [NahimGFX](https://github.com/NahimGFX) utilizando **Astro** y **Tailwind CSS** como tecnologías principales.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 🚀 Tecnologías utilizadas
 
-Inside of your Astro project, you'll see the following folders and files:
+- [Astro](https://astro.build) — Framework moderno para sitios estáticos
+- [Tailwind CSS](https://tailwindcss.com) — Utilidades de diseño para estilos rápidos
+- HTML, CSS y JavaScript
 
-```text
+---
+
+## ✨ Características implementadas
+
+- Animación de entrada en el **navbar**
+- Animación en secciones al hacer scroll
+- Corrección de estilos y mejoras visuales
+- Arquitectura de carpetas ordenada con buenas prácticas
+
+---
+
+## 📂 Estructura del proyecto
 /
-├── public/
+├── public/ # Archivos estáticos (imágenes, logos)
 ├── src/
-│   └── pages/
-│       └── index.astro
+│ ├── components/ # Componentes reutilizables (navbar, footer, etc.)
+│ ├── layouts/ # Layouts para las páginas  
+│ └── pages/ # Páginas principales del sitio
 └── package.json
-```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🧞 Scripts útiles
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Comando            | Acción                                     |
+| ------------------ | ------------------------------------------ |
+| `npm install`      | Instala las dependencias                   |
+| `npm run dev`      | Inicia el servidor local (`localhost:4321`)|
+| `npm run build`    | Genera el sitio para producción (`/dist`)  |
+| `npm run preview`  | Previsualiza el sitio construido           |
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 📌 Estado del proyecto
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+🔧 **En desarrollo:** Este proyecto está en fase de pruebas. Se seguirán agregando nuevas secciones, diseño responsive, optimización de imágenes y más animaciones.
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📫 Contacto
+
+Si tienes sugerencias, mejoras o quieres colaborar, ¡estaré encantado de escucharlas!
+
+**Autor:** Nahim GFX  
+**GitHub:** [@NahimGFX](https://github.com/NahimGFX)
+
+---
+
+## 📝 Licencia
+
+Este proyecto es solo con fines educativos y de práctica personal.
