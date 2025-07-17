@@ -1,4 +1,5 @@
 ---
+import Card from '../components/Card.astro'
 import Layout from '../layouts/Layout.astro'
 ---
 
@@ -19,9 +20,21 @@ import Layout from '../layouts/Layout.astro'
 					</a>
 			</div>
 		</section>
-		<div class="mt-6">
-			<i class='animate-bounce bxr  bx-chevrons-down text-5xl text-[#176B87] flex justify-center'  ></i>
+		<div class="mt-6 animate-in fade-in slide-in-from-bottom duration-700">
+			<i class='animate-bounce bxr  bx-chevrons-down text-5xl text-[#176B87] flex justify-center'></i>
 		</div>
+		<section class="flex justify-center">
+			<Card
+			title={"Yate"}
+			description = {"LjaklsdaskldmnxcnlKQDJKLASNZJXNCSAKJCN ALKJSD AKSLDN ASK KDLAS NZLXKCJ KQLWDNAJKL SDNKL"}
+			href = {"/about"}
+			/>
+			<Card
+			title={"Yate"}
+			description = {"LjaklsdaskldmnxcnlKQDJKLASNZJXNCSAKJCN ALKJSD AKSLDN ASK KDLAS NZLXKCJ KQLWDNAJKL SDNKL"}
+			href = {"/about"}
+			/>
+		</section>
 	</main>
 </Layout>
 
